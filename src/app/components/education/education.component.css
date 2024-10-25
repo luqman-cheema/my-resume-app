@@ -1,0 +1,33 @@
+.education-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .education-item {
+    border: 2px solid rgb(102, 198, 131);
+    padding: 50px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;;
+  }
+  
+  .education-title {
+    font-weight: bold;
+  }
+  
+  .education-details {
+    margin-bottom: 10px;
+  }
+
+  .education{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  .outerDiv{
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+

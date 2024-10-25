@@ -1,0 +1,38 @@
+<header class="main-header">
+  <nav class="navbar">
+  <div class="navbar-logo">
+    LUQMAN E-RESUME
+  </div>
+    <ul class="nav-list">
+      <li class="nav-item"><a routerLink="/about" routerLinkActive="active">ABOUT</a></li>
+      <li class="nav-item"><a routerLink="/skills" routerLinkActive="active">SKILLS</a></li>
+      <li class="nav-item"><a routerLink="/portfolio" routerLinkActive="active">PORTFOLIO</a></li>
+      <li class="nav-item"><a routerLink="/work" routerLinkActive="active">EXPERIENCE</a></li>
+      <li class="nav-item"><a routerLink="/education" routerLinkActive="active">EDUCATION</a></li>
+      <li class="nav-item"><a routerLink="/contact" routerLinkActive="active">CONTACT</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+<div class="profile-background">
+  <div class="profile-section">
+    <div class="profile-image">
+      <img src="profile.png" alt="Luqman Cheema">
+    </div>
+    <h1 class="profile-name">Luqman Cheema</h1>
+    <p class="profile-role">Senior Software Engineer</p>
+  <div class="navbar-buttons">
+    <a href="mailto:luqmancheema.net@gmail.com" class="btn-cv">Hire Me</a>
+    <a  (click)="downloadCV()" class="btn-cv">Download CV</a>
+
+  </div>
+  <!-- <div class="container text-center">
+    <div class="social-icons">
+      <a *ngFor="let link of socialLinks" [href]="link.url" target="_blank" [attr.aria-label]="link.name">
+        <i [class]="link.icon"></i>
+      </a>
+    </div>
+  </div> -->
+</div>
+
