@@ -12,7 +12,7 @@ export class SocialMediaService {
     const links = [
       { name: 'Twitter', url: 'https://x.com/luqmancheema_', icon: 'fab fa-twitter' },
       { name: 'LinkedIn', url: 'https://www.linkedin.com/in/luqman-cheema/', icon: 'fab fa-linkedin-in' },
-      { name: 'GitHub', url: 'https://github.com/luqmancheemaa', icon: 'fab fa-github' }
+      { name: 'GitHub', url: 'https://github.com/luqman-cheemaa', icon: 'fab fa-github' }
     ];
     return of(links); 
   }
